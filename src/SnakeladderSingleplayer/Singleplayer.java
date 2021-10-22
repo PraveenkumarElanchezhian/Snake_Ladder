@@ -18,6 +18,15 @@ public class Singleplayer {
 			  {
 			      System.out.println("player in next position"); 
 			  }
+			 int i = 0; 
+			  int move = 0;
+			  while(i<=100) 
+			  { int random_one = (int)Math.floor(Math.random()*(max-min+1)+min); 
+			  System.out.println("Winning Position: "+i); 
+			  i=i+random_one; 
+			  move++;
+			  }
+			  System.out.println("Total Move Count = "+move); 
 	}
 }
 
